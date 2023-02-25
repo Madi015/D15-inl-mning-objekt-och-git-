@@ -2,6 +2,12 @@
 {
     internal class Program
     {
+
+        public class grundamne
+        {
+            public string namn, atomnr, typ, smaltpunkt, kokpunkt;
+        }
+            
         static void Main(string[] args)
         {
             Console.WriteLine("Hello, World!");

@@ -36,9 +36,12 @@
             { namn = "kvicksilver", atomnr = "80", typ = "metall", smaltpunkt = " 234.3210", kokpunkt = "629.88" };
 
             grundamne[] grundÄmnerna = { syre, järn, guld, väte, brom, kvicksilver };
-        
+
             //forloop print
-        
+            foreach (grundamne E in grundÄmnerna)
+            {
+                E.print();
+            }
 
             //
         }

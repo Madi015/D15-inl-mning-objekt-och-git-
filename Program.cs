@@ -6,6 +6,14 @@
         public class grundamne
         {
             public string namn, atomnr, typ, smaltpunkt, kokpunkt;
+            public void print()
+            {
+                Console.WriteLine("Grundämne: "+ namn);
+                Console.WriteLine("  typ: "+ typ);
+                Console.WriteLine("  smältpunkt: "+ smaltpunkt);
+                Console.WriteLine("  kokpunkt: "+ kokpunkt);
+                Console.WriteLine("");
+            }
         }
             
         static void Main(string[] args)
@@ -17,6 +25,9 @@
             grundamne guld = new grundamne()
             { namn = "guld", atomnr = "79", typ = "metall", smaltpunkt = "1337.33", kokpunkt = "3243" };
 
+            syre.print();
+            järn.print();
+            guld.print();
         }
     }
 }

@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "D15-inlämning (objekt och git)", "D15-inlämning (objekt och git).csproj", "{06C84C71-947E-4C7E-8FB9-D05822C1E2B6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{06C84C71-947E-4C7E-8FB9-D05822C1E2B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06C84C71-947E-4C7E-8FB9-D05822C1E2B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06C84C71-947E-4C7E-8FB9-D05822C1E2B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06C84C71-947E-4C7E-8FB9-D05822C1E2B6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C2ECE739-0889-40F1-8579-9E7CE50AF14D}
+	EndGlobalSection
+EndGlobal

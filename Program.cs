@@ -28,6 +28,8 @@
             syre.print();
             järn.print();
             guld.print();
+
+            grundamne[] grundÄmnerna = { syre, järn, guld, null, null, null };
         }
     }
 }

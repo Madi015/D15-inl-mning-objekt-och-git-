@@ -43,7 +43,17 @@
                 E.print();
             }
 
-            //
+            //forloop list of metal
+            foreach (var m in grundÄmnerna)
+            {
+                if (m.typ == "metall")
+                { Console.WriteLine(m.namn + " är en metall"); }
+            }
+
+            //forloop list of tempruter
+
+
+
         }
     }
 }

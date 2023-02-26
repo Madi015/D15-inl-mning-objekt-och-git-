@@ -54,6 +54,7 @@
 
 
 
+            Console.WriteLine("Tack att du använder vår tjänst. ");
         }
     }
 }
